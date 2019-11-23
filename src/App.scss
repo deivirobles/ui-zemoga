@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300i,400,700&display=swap');
+
+@import './scss/grid';
+
+body {
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    margin-block-start: 0px;
+    padding-inline-start: 0px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.w-50{
+    width: 50%;
+}
+
+@import './scss/header';
+@import './scss/container';
+@import './scss/card';
+@import './scss/footer';
+@import './scss/hero';
+
+
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@import 'responsive.scss';

@@ -1,0 +1,73 @@
+.app-container {
+    .notice {
+        background-color: #EBEBEB;
+        padding: 10px 30px;
+        margin-top: 10px;
+        display: flex;
+        color: #4F4F4F;
+
+        .col {
+            flex: 1;
+        }
+
+        .first {
+            min-width: 200px;
+        }
+
+        .title {
+            font-size: 20px;
+        }
+
+        .bold {
+            font-weight: 900;
+            font-size: 30px;
+            color: #333333;
+        }
+
+        .detail {
+            margin-top: 1.6rem;
+        }
+
+        .close {
+            min-width: 30px;
+            align-self: center;
+
+            span {
+                vertical-align: middle;
+            }
+        }
+
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: ". ."". .";
+    }
+
+    .card {
+        padding: 10px;
+
+    }
+
+    .footer-container {
+        margin-top: 20px;
+        background-image: url('./assets/img/people.jpg');
+        font-size: 2rem;
+        padding: 20px 30px;
+        display: flex;
+        justify-content: space-between;
+        background-size: cover;
+        margin-bottom: 40px;
+
+        button {
+            background: none;
+            border: solid 2px black;
+            padding: 5px 20px;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+    }
+}
+

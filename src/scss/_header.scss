@@ -1,0 +1,29 @@
+.app-header {
+    color: white;
+    background-image: url('./assets/img/background-footer.svg');
+
+    ul {
+        list-style-type: none;
+    }
+
+    .left {
+        width: 30%;
+    }
+
+    .right {
+        display: inline-flex;
+    }
+
+    .right li {
+        padding: 5px 15px;
+        align-self: center;
+    }
+
+    .right li {
+        padding: 5px 15px;
+    }
+
+    .App-link {
+        color: #61dafb;
+    }
+}

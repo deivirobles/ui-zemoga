@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Kaney West",
+        "image": "kaney",
+        "topic": "Entertaiment",
+        "likes": 64,
+        "dislikes": 36
+    },
+    {
+        "id": 2,
+        "name": "Mark Zuckerberg",
+        "image": "mark",
+        "topic": "Business",
+        "likes": 36,
+        "dislikes": 64
+    },
+    {
+        "id": 3,
+        "name": "Cristina Fernández de Kirchner",
+        "image": "cristina",
+        "topic": "Politics",
+        "likes": 36,
+        "dislikes": 64
+    },
+    {
+        "id": 4,
+        "name": "Malala Yousafzai",
+        "image": "malala",
+        "topic": "Entertainment",
+        "likes": 64,
+        "dislikes": 36
+    }
+]

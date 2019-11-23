@@ -1,0 +1,149 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 400px) {
+
+    .app-header a{
+        font-size: .8rem;
+    }
+
+    .App div.background-hero {
+        background-size: contain;
+
+        &.wrapper .two {
+            grid-column: 1/4;
+            grid-row: 3/4;
+        }
+    }
+
+    .app-card {    
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .App .background-hero {
+        background-size: cover;
+        min-height: 300px;
+        background-position-x: center;
+    }
+
+    .app-footer {
+        >.d-flex {
+            display: block;
+            justify-content: center;
+        }
+
+        .d-flex {
+            justify-content: center;
+
+            &:last-of-type {
+                padding-top: 25px;
+            }
+        }
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .app-container .cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "."".";
+    }
+}
+
+@media only screen and (min-width: 479px) and (max-width:768px) {
+    .app-card {
+        width: 70%;
+        background-size: cover;
+        background-position-x: right;
+        margin: auto;
+    }
+
+
+}
+
+@media only screen and (min-width: 769px) and (max-width:956px) {
+    .card .app-card {
+        background-size: cover;
+        background-position-x: right;
+
+        .name h2 {
+            font-size: 1.3rem;
+        }
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .app-card .name {
+        margin-top: 150px;
+
+        h2 {
+            font-size: 1.5rem;
+        }
+    }
+
+    .background-hero {
+        background-size: cover;
+        min-height: 400px;
+
+        .vote-pope {
+            width: 100%;
+        }
+
+        .tri::before {
+            top: 394px;
+        }
+    }
+
+    .app-container {
+        .notice {
+            display: block;
+
+            .title {
+                text-align: center;
+            }
+        }
+
+
+        .footer-container {
+            display: block;
+            text-align: center;
+        }
+    }
+
+    .container {
+        width: 90%;
+    }
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .App .background-hero {
+        background-position-y: center;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width:1440px) {
+    .app-card {
+        background-size: cover;
+        background-position-x: right;
+
+        .name h2 {
+            font-size: 1.5rem;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1440px) {
+    .app-card {
+        background-size: cover;
+    }
+}

@@ -1,0 +1,81 @@
+.background-hero {
+    background-image: url('./assets/img/pope1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+
+    .justify-center {
+        justify-content: center;
+    }
+
+    .vote-pope {
+
+        background-color: rgba($color: #000000, $alpha: .7);
+        color: white;
+        width: 50%;
+        margin: auto;
+
+        .descript {
+            padding: 30px;
+        }
+
+        h2 {
+            font-size: 3.5rem;
+            margin: 0;
+        }
+
+        p {
+            font-size: 1.3rem;
+        }
+
+        a {
+            color: white;
+        }
+
+        .vote {
+            img {
+                padding: 20px;
+            }
+
+            >div {
+                text-align: center;
+                display: inline-block;
+            }
+        }
+
+        .like {
+            background: rgba($color: #1EBBB4, $alpha: .6);
+
+        }
+
+        .dislike {
+            background: rgba($color: #FFAD1C, $alpha: .6);
+            text-align: center;
+
+            img {
+                transform: rotateY(-180deg) rotateX(-180deg);
+            }
+        }
+    }
+
+    .closing {
+        text-align: right;
+        background-color: rgba($color: #000000, $alpha: .2);
+        color: white;
+        align-self: center;
+        padding: 20px 10px;
+        font-size: 13px;
+    }
+
+    .days {
+        background-color: rgba($color: white, $alpha: .8);
+        align-self: center;
+        padding: 10px 10px;
+        font-size: 2rem;
+    }
+
+    .align-end {
+        align-self: self-end;
+    }
+
+}

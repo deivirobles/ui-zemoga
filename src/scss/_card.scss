@@ -1,0 +1,131 @@
+.app-card {
+    // background-image: url('./assets/img/kaney.jpg');
+    background-size: contain;
+    border: solid 1px transparent;
+    // min-width: 400px;
+    // min-height: 600px;
+    max-width: 600px;
+    max-height: 800px;
+    color: white;
+    background-repeat: no-repeat;
+
+    .name {
+        margin-top: 300px;
+
+        .vote {
+            display: inline-block;
+        }
+
+        .label {
+            display: inline-block;
+            padding-left: 5px;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            font-size: 2rem;
+            font-weight: 500;
+        }
+    }
+
+    &.cristina {
+        background-image: url('./assets/img/cristina.png');
+    }
+
+    &.kaney {
+        background-image: url('./assets/img/kaney.png');
+    }
+
+    &.mark {
+        background-image: url('./assets/img/mark.png');
+    }
+
+    &.malala {
+        background-image: url('./assets/img/malala.png');
+    }
+
+    .caption {
+        margin-left: 40px;
+        width: 70%;
+    }
+
+    .date span {
+        font-weight: bold;
+    }
+
+    .detail a {
+        margin-right: 10px;
+        color: white;
+    }
+
+    .border{
+        border:solid 3px white;
+    }
+
+    .like,
+    .dislike {
+        background-color: #1EBBB4;
+        display: inline-block;
+        padding: 5px;
+
+        img {
+            width: 25px;
+        }
+    }
+
+    .dislike {
+        background-color: #FFAD1C;
+        transform: rotate(-180deg);
+    }
+
+    .vote-btn {
+        border: solid 1px white;
+        background: none;
+        min-height: 25px;
+        padding: 10px;
+        margin-top: -15px;
+    }
+
+    .percent {
+        margin-top: 30px;
+        display: flex;
+
+        div {
+            height: 50px;
+            display: flex;
+            padding: 10px
+        }
+
+        img {
+            display: flex;
+            align-self: center
+        }
+
+        span {
+            align-self: center;
+            font-size: 2rem;
+            padding: 10px;
+        }
+
+    }
+
+    .rate-like {
+        background-color: rgba($color: #158580, $alpha: .7);
+        text-align: left;
+        display: flex;
+    }
+
+
+    .rate-dislike {
+        text-align: right;
+        background-color: rgba($color: #B47A15, $alpha: .7);
+        display: flex;
+        align-self: center;
+        flex-direction: row-reverse;
+
+        img {
+            transform: rotateY(-180deg) rotateX(-180deg);
+        }
+    }
+
+}

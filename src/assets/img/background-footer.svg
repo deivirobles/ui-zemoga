@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1281 151" width="1281" height="151">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-9 -5L1280 -5L1280 740L-9 740L-9 -5Z" />
+		</clipPath>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="640.5" y1="150" x2="640.5" y2="0">
+			<stop offset="0" stop-color="#333333" stop-opacity="0" />
+			<stop offset="1" stop-color="#333333" stop-opacity="0.529" />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: url(#grd1) } 
+	</style>
+	<g id="0.8.0 - Home">
+		<g id="Main Ruling">
+			<g id="Group 2" clip-path="url(#cp1)">
+				<path id="Rectangle 8" class="shp0" d="M0 0L1281 0L1281 150L0 150L0 0Z" />
+			</g>
+		</g>
+	</g>
+</svg>
