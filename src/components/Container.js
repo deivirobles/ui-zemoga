@@ -23,7 +23,7 @@ function Container() {
                 </div>
                 <div className="col close"><span>X</span></div>
             </div>
-            <h2>Votes</h2>
+            <h2 className="titleSection">Votes</h2>
             <div className="cards">
                 {cards.map((e) =>
                     <div className="card">
