@@ -5,7 +5,9 @@
         "image": "kaney",
         "topic": "Entertaiment",
         "likes": 64,
-        "dislikes": 36
+        "dislikes": 36,
+        "desc": "Lorem ipsum, dolor sit amet",
+        "time": "1 Month ago"
     },
     {
         "id": 2,
@@ -13,7 +15,9 @@
         "image": "mark",
         "topic": "Business",
         "likes": 36,
-        "dislikes": 64
+        "dislikes": 64,
+        "desc": "Lorem ipsum, dolor sit amet",
+        "time": "1 Month ago"
     },
     {
         "id": 3,
@@ -21,7 +25,9 @@
         "image": "cristina",
         "topic": "Politics",
         "likes": 36,
-        "dislikes": 64
+        "dislikes": 64,
+        "desc": "Lorem ipsum, dolor sit amet",
+        "time": "1 Month ago"
     },
     {
         "id": 4,
@@ -29,6 +35,8 @@
         "image": "malala",
         "topic": "Entertainment",
         "likes": 64,
-        "dislikes": 36
+        "dislikes": 36,
+        "desc": "Lorem ipsum, dolor sit amet",
+        "time": "1 Month ago"
     }
 ]

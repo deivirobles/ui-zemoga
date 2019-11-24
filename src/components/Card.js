@@ -50,7 +50,7 @@ class Card extends Component {
                 dislikes: this.state.actualData[idx].dislikes,
             });
             localStorage.setItem('actualData', JSON.stringify(this.state.actualData));
-            setTimeout(() => this.setState({ message: false }), 3000);
+            setTimeout(() => this.setState({ message: false }), 2000);
         }
     }
 
@@ -74,12 +74,12 @@ class Card extends Component {
                         </a>
                     </div>
                     <div className="label">
-                        <h2>{this.props.name}</h2>
+                        <h2>{this.props.props.name}</h2>
                     </div>
                 </div>
                 <div className="caption">
                     <div className="date">
-                        <span>1 Month ago</span> in {this.props.topic}
+                        <span>{this.props.props.time}</span> in {this.props.props.topic}
                     </div>
                     <div className="detail">
                         <p>
@@ -87,7 +87,7 @@ class Card extends Component {
                                 <span>Thank you for your voting!</span>
                                 :
                                 <span>
-                                    Lorem ipsum, dolor sit amet
+                                    {this.props.props.desc}
                         </span>
                             }
                         </p>
